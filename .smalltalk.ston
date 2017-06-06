@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #configuration : 'GTEventRecorderServer'
+      #repository: 'http://smalltalkhub.com/mc/Moose/GToolkit/main/',
+      #load : [ 'default' ],
+      #platforms : [ #pharo ],
+      #version: #stable
+    }
+  ],
+  #testing : {
+    #coverage: {
+        #categories: [ 'GT-EventRecorder-Server-Tests' ]
+    }
+  }
+}
