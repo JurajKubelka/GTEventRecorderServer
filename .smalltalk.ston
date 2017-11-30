@@ -9,8 +9,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #coverage: {
         #categories: [ 'GT-EventRecorder-Server-Tests' ]
-    }
   }
 }
